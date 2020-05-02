@@ -12,6 +12,9 @@ import { TodoPageComponent } from './components/todo-page/todo-page.component';
   declarations: [TodoAddComponent, TodoFooterComponent, TodoItemComponent, TodoListComponent, TodoPageComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    TodoPageComponent
   ]
 })
 export class TodoModule { }
